@@ -1,0 +1,631 @@
+{"intents": [{"tag": "greeting",
+         "patterns": ["   Hi",  "Is anyone there?", "Hello", "How are you","Good day" , "Hey","Please help me"],
+         "responses": ["Hello, thanks for visiting", "Yes, How may I help you?", "Hi there, how can I help?", "Good to see you again"],
+         "context_set": ""
+        },
+
+        {"tag":"who",
+        	"patterns":["who are you","may i know who's there?","would you please tell me who are you"],
+        	"responses":["I am Paradise Techsoft solutions AI assistant, please tell me how can i help you?"]
+
+        },
+
+        {"tag":"live",
+        	"patterns":["where do you live","where are you living currently","in which locality you live?"],
+        	"responses":["I am an AI chatbot developed by Paradise Techsoft Solutions to help you."]
+        },
+
+        {"tag":"eatfood",
+        	"patterns":["you have food to eat?","do you eat ?","what you like in eating","which is your favourite food","are you fond of eating?"],
+        	"responses":["I am an artificially intelligent assistant, i don't eat. You can enjoy your meal. Bon appetit "]
+        },
+
+        {"tag":"partydance",
+        	"patterns":["let's go to party","do you dance?","do you know how to dance","will you dance with me","will you go to party and dance with me?","i want to dance with you","i want to go to party with you","i am going to party, will you join me?"],
+        	"responses":["Thanks for offering. I am sorry to say i can't join you as i am AI assistant. Hope you dance and enjoy well at your party."]
+        },
+
+        {"tag":"likeyou",
+        	"patterns":["I like you","I love you", "you are great","you are very nice","can we meet?","will you be mine"],
+        	"responses":["Thanks for your praise but i am an AI assistant."]
+        },
+
+
+        {"tag":"companylocation",
+            "patterns":["What's your company location ?", "Where you people are located ?", "What is your address ?", "Is your office near to my location ?", "How far it is from This particular location ?"],
+            "responses":["We are located in Mohali 8 phase, Chandigarh,India. What is your location"]
+        },
+
+        {"tag":"locationresponse",
+            "patterns":["that's great. Glad to meet you. PLease tell me about yourself","who are you","what you do","what you people offer","tell me something about yourself","please tell me about your organization"],
+            "responses":["we are a leading web designing and development company with 7+ years of expertise. Please tell us how we can help you with our services"]
+        },
+
+        {"tag":"helpme",
+            "patterns":["please help me","would you please help me"],
+            "responses":["how may i help you","surely. PLease tell how can i help you"]
+        },
+
+        {"tag":"fixingmeetingappointment",
+            "patterns":["i would like to talk to you.Please tell me how can i fix an appointment with you for further discussion of work","lets fix an appointment for talk","we should fix a meeting","lets discuss work in a meeting","whe can i meet you","how can i get an appointment with you"],
+            "responses":["Yes sure.It would be a pleasure to meet you. PLease reach out to us at our office in mohali if its possible for you. You can also contact on skype/hangouts or drop an email at info@paradise.com. Please provide us with your email address so that we can reach you out"]
+        },
+
+        {"tag":"hearback",
+            "patterns":["Sure.I will provide you my email address. When can i hear back from you ?"],
+            "responses":["One of our executive will reach out to you over a call from 9am to 7pm IST. You will get further assistance from there in fixing appointment. You can also drop email to us provided in the website and we will get back to you soon"]
+        },
+
+        {"tag":"companycontactdetails",
+            "patterns":["How can i contact you ?", "Please provide me with any of your conact details", "Can i get your phone number", "What's your email address ?", "How can i reach out to you ?", "What is the best way of communication with you people ?"],
+            "responses":["Sure.Please reach out to us at our head office in 8 phase Mohali, Chandigarh, India. Our company's phone number is 123456 and you can drop us email at info@paradise.com.Skype is also available", "We would like to stay in touch with you"]
+        },
+
+        {"tag": "website",
+         "patterns": ["I need a website", "I want to develop a website", "I need a website for my business", "I want to know what is needed for creating website","I want to develop website for education","May i get some guidance for developing a website ?","What is needed to develop a website at my own ?", "Do you provide website development services ?", "Are you people dealing with website development ?"],
+         "responses": ["Sure I can help you with that. Do you have purchased domain name and hosting?",  "yes, please tell me your requirements", "We deal in developing websites.Please let me know your requirements", "You need to purchase domain and hosting.Rest will be done by us"]
+        },
+
+        {
+ 	    "tag":"Yes",
+        "patterns":["Yes, I do have" , "Yeah","I have implemented the first step","I did it using godaddy"],
+        "responses":["That's great, Please provide me the login details."]
+        },
+
+		{
+ 	    "tag":"No",
+        "patterns":["No, I don't have", "Nope", "I donot know how to do such","I am doing for the first time","Please guide me","I am new to website development","I have no knowledge of web hosting and domain", "how to purchase domain name and hosting ?", "From where i can get domain name and hosting ?", "Can i get domain name and hosting for free ?"],
+        "responses":["No problem. Let me find a solution for this.","Donot worry, I will help you out","It is pleasure to help you"]
+		},
+
+		{"tag": "solution",
+         "patterns": ["sure", "please find a solution","give me the solution","provide me the solution"],
+         "responses": ["purchase a hosting plan and you can have login details. I am providing reference with respect to godaddy"]
+        },
+
+		{"tag": "Logindetails",
+         "patterns": ["sure", "Here are the login details","take my login details", "I will provide my login credentials", "Sending you my login credentials"],
+         "responses": ["Thanks","okay", "click web hosting then manage. Enter site name and click upload your site"]
+        },
+        
+        {"tag":"digitalocean",
+          "patterns":["I donot need go daddy hosting provide me another option", "I am not satisfied with godaddy", "I am not comfortable working in godaddy", "I don't want to work in godaddy", "I had a bad experience working in godaddy.Please suggest any other", "I am not satisfied with godaddy services"],
+           "responses":["That's fine. You can go for other options", "You can go for any other hosting services that you like", "You can try out Digital Ocean, bluehost. Hope you like it !", "Please try out digital ocean or bluehost", "PLease provide me with other hosting options also.I can select better if i have more options"]
+        },
+
+        {"tag":"hostingwithdigitalocean",
+            "patterns":["That's great", "Please let me know the procedure for digital ocean", "please tell me the steps to follow in digital ocean", "Can i get any cheaper hosting in digital ocean?"],
+            "responses":["yes sure", "Just check out their website.You will get everything along with instructions"]
+
+        },
+
+        {"tag":"hostingwithbluehost",
+            "patterns":["That's great", "It seems to be good", "How to start working with it ?"],
+            "responses":["It's great", "Hope you have great experience working with it", "PLease folow instructions", "everything is mentioned in their website.You just need to follow to instructions"]
+        },
+
+        {"tag":"assistbluehost",
+            "patterns":["I am done with purchasing bluehost web hosting.What's the next step ?", "I got my bluehost web hosting login credentials", "It's done", "Do i need to provide you the logi credentials ?", "i am going to provide you my login credentials", "please take my login credentials","Do i need these credentials in future ?"],
+            "responses":["yes, sure", "please provide me your bluehost logi credentials.", "Thank you for providing me with your login credentials.Rest of the work will be done by us", "Thanks for providing login credentials.You can now relax and wait for our results", "PLease keep login credenials safe and secure for future needs.Make sure you don't loose them"]
+        },
+
+        {"tag":"assistdigitalocean",
+            "patterns":["I have purchased digital ocean hosting.What next now ?", "what to do after i have purchased my digital ocean hosting ?", "I think you may need my login credentials for further work ?", "Do i need to keep login credentials everytime to open my website in future ?"],
+            "responses":["That's great.Please provide me your login credentials and make sure you keep them safe", "Please share your login credentials with us and keep them safe for future use", "Do keep your login credentials safe and secure for future needs", "PLease make sure not to loose your login credentials"]
+        },
+
+	    {"tag": "services",
+          "patterns": ["what are your services?", "What kind of services you provide?", "What services do you provide?","tell me about services","talk about services you provide", "PLease let me know about services you provide"],
+         "responses": ["We do provide web development/designing, seo, machine learning, laravel and Mobile app development services."]
+        },
+
+	    {"tag": "wordpressexperience",
+         "patterns": ["Do you use wordpress?", "How many years of experience do you have in developing WordPress solutions?","tell me your experience with wordpress","speak about your wordpress experience", "How many wordpress sites you have developed ?"],
+         "responses": ["Yes, we do",  "I do have 8 years of experience in developing the wordpress websites.", "We have developed around 100 wordpress websites working live"]
+        },
+
+        {"tag":"whywordpresswebsite",
+            "patterns":["Why wordpress website?", "Why you people develop websites in wordpress only", "Why you prefer wordpress", "reason behind choosing wordpress ?"],
+            "responses":["Its most popular,easy, free to use and secure content management system used for developing websites and can be easily handled"]
+        },
+
+        {"tag":"exampledemowebsite",
+            "patterns":["would you please show me any demo or example of your work ?", "please provide me any live working demo of a website that you have built", "may i see any of your project or website working live", "i would like to see a live demo of your work", "can you share any of your work project"],
+            "responses":["yes.Please visit the url http://gccc.melbourne/galaxy-city-constructions/commercial/fit-outs/", "http://lempcap.queued.com.au/"]
+        },
+
+
+        {"tag":"othercmsorframeworksfordevelopingwebsite",
+            "patterns":["What other CMS or frameworks you use for developing websites ?", "Do you work with other CMS ?", "What other CMS and frameworks you use for developing websites ?", "Anything more better thsn wordpress for developing website ?", "Is that all you work with ?", "What other options you have for developing website ?"],
+            "responses":["yes, we develop website in frameworks like laravel, CodeIgniter, PHP, mobile apps and even provide free maintainence for the website developed for a period of 2-3 months"]
+        },
+
+        {"tag":"handlingprojects",
+            "patterns":["Are you the only person who is going to handle this project ?", "Will you be working independently or you have a team to work on the project ?", "Who is going to handle this project ?", "Do you have any superior to handle this project ?", "How many team members you are to handle this project ?"],
+            "responses":["We work in a team and the number of persons working will depend on your project requirement to make sure your project is being completed on time bugsfree and accuracy. We have superior managers to handle the workflow of the project "]
+        },
+
+        {"tag":"timeprojectcompletion",
+            "patterns":["How much time you take for a single project ?", "what is the minimum time you take for completing a project ?", "Do you meet deadlines ?"],
+            "responses":["It depends on your requirements. We manage our teamwork accordingly that the project could be completed before time"]
+        },
+
+        {"tag":"companyworkprocess",
+            "patterns":["What's your company's working structure ?", "Tell me about your workflow of company", "How you divide your work", "what is your general work procedure"],
+            "responses":["we start with graphic designing where you will select the front end design for your website.This is optional.We can create front end design ourselves if you wish to.Then the project moves to developement followed by responsiveness.Last phase is of testing and then it will be delivered to you"]
+        },
+
+	   {"tag": "wordpressrequirements",
+         "patterns": ["Do i need to provide you anything other than web hosting for wordpress website development ?","Is anything else required from my side other than web hosting details ?"],
+         "responses": ["No. We will let you know if something is there. Please stay in touch", "Nope", "Nothing else is needed from your end", "You will be informed if something else is needed"]
+        },
+
+		  {"tag": "wordpresswebsitecost",
+         "patterns": ["What is the cost you charge for wordpress website development?","I want to know your cost with respect to wordpress","tell me about your wordpress website development cost", "May i know your wordpress website developemnt charges for a single website"],
+         "responses": ["For wordpress informational website : $500", "For wordpress Ecommerce website : $900", "For wordpress Real Estate website : $1200", "For wordpress business/catalog website : $1000", "For community building websites : $1000", "For blogging and photo sharing websites : $1000", "For writers and authors website : $700"]
+        },
+
+
+	    {"tag": "generalwordpresswebsiteprocedure",
+         "patterns": ["Would you please tell me the procedure to develop a WordPress site??","please tell me how to develop wprdpress site","Is Wordpress website development easy to learn ?", "Is working with wordpress easy or a complicated task ?"],
+         "responses": ["Yes, it's very easy to develop websie in wordpress.You can follow the following steps.Procedure: 1) Install wordpress 2) Install theme 3) Customize theme according to requiremnets", "Yes, wordpress website development is quite easy to learn.Follow tutorials and their website for easy learning"]
+        },
+
+		 {"tag": "webdesign",
+         "patterns": ["What about Web Design and other things?","tell me your services related to web designing","what you do with respect to web designing", "What about the website front end look", "Do you people decide website's front end look yourselves ?", "How you people manage website's front end design ?"],
+         "responses": ["You will provide me the design and I will do the HTML, css for that", "You can decide the front end design yourselves.We can provide you graphics for that and you can select the one that you like", "We can make the front end look ourselves if you want.If not then please help us with selecting front end design"]
+        },
+
+	    {"tag": "Responsive",
+         "patterns": ["Will you build my website with the responsive feature?","I need site with responsive features","responsiveness is my most important need", "What about the responsiveness of the website ?", "Will the website be responsive ?"],
+         "responses": ["Yes, we develop responsive websites","Don't worry, you will get a responsive website", "We develop our every website with responsiveness"]
+        },
+
+	    {"tag": "websiteownership",
+         "patterns": ["Do I get complete ownership of my website?","tell me about ownership of the site","what is my legal rights with respective to ownership of the site"],
+         "responses": ["Yes, we do provide design, development, written content and photography rights to you.","we provide you full legal rights and ownerships"]
+        },
+
+		  {"tag": "customwordpressdevelopment",
+         "patterns": ["Do you develop custom WordPress site?","Do you use plugins for adding most of the functionalities to wordpress site or custom development","whether you provide services of adding custom plugin to wordpress site"],
+         "responses": ["Yes, We do","Yes","sure it is provided by us", "yes, we develop custom websites", "It depends on your requiremnet whether you want custom development or it should rely heavily on wordpress themes"]
+        },
+
+		  {"tag": "wordpresswebsitesecurity",
+         "patterns": ["What kind of security will my website have?","tell me whether you provide ssl encryption","will you make my site secure"],
+         "responses": ["It will be secured by https protocol. I will add the security plugins as well","if hosting is digital ocean then I can use Lets Encrypt or cloudfare"]
+        },
+
+	     {"tag": "SEO",
+         "patterns": ["Will you optimize my website for SEO or Search Results?","I need my website to be optimize, would you do","tell me something about site optimization"],
+         "responses": ["Yes for the ongoing hourly basis contact I would do that and If the contract is fixed price I would like to work on monthly basis"]
+        },
+
+        {"tag":"seowebsiteranking",
+            "patterns":["will my website be on the top of google search ?", "how much time you will take to make website be in top rankings", "from where you will bring most of the traffic to my website"],
+            "responses":["yes, we will try to make the website in top rankings withing 2-3 months"]
+        },
+
+        {"tag":"linkbuildingseo",
+            "patterns":["what type of links you will be prefer for search engine optimization ?", "Which links you build for seo optimization-paid or organic ?", "please let me know whether you will be building paid or orgainic links for seo optimization ?", "which type of links you follow you building seo in website"],
+            "responses":["we mainly follow organic link building as its follows google guidelines"]
+        },
+
+        {"tag":"paidlinkbuildingseo",
+            "patterns":["do you follow paid linkbuilding for seo", "can i get paid link building seo for my website", "you don't work in paid link building in seo"],
+            "responses":["it mainly depends on the clients requirements"]
+        },
+
+        {"tag":"seoservicecostchargespaid",
+            "patterns":["How much do seo service cost", "how much you chage for seo", "what is the cost for seo of a website", "what's the seo services price","how much you would like to get paid"],
+            "responses":["It depends on size of project, targeted country and quality of work"]
+        },
+
+        {"tag":"improveseorankings",
+            "patterns":["what you will do to improve seo rankings", "how you people improve seo rankings", "which strategy you follow to improve seo rankings", "what sort of ranking can i expect from you", "can i achieve good ranking on google", "how will you improve seo ranking"],
+            "responses":["we build high quality backlinks and follow google guidelines to website ranking better.we will give our best as much as we can"]
+        },
+
+        {"tag":"highqualitybacklinking",
+            "patterns":["how you build high quality backlinks","what kind of backlinking you have done", "your previous backlink experience"],
+            "responses":["we have done PR linking back before and ranked multiple websites"]
+        },
+
+        {"tag":"seocountrytargeting",
+            "patterns":["which countries do you target for seo", "which are your target countries","where in the world you mostly target","your target countries", "where you hit your targets"],
+            "responses":["it depends on clients's requirements. we mostly target in US and Australia"]
+        },
+
+        {"tag":"seotools",
+            "patterns":["which tools you use for seo", "how much tools you use for seo", "what are the tools used by you for seo"],
+            "responses":["we use google analytics, google web master tools"]
+        },
+
+        {"tag":"canonicalissue",
+            "patterns":["what about canonical issue","do you resolve canonical issue", "will you resolve canonical issue", "will you be working with canonical issue"],
+            "responses":["yes, we do resolve canonical issue by using 301 redirect"]
+        },
+
+		    {"tag": "wordpresswebsiteconversionecommerce",
+         "patterns": ["Can I convert my WordPress site into an eCommerce store or add more functionalities/features to it in the future?","can you integrate website wwith e commerce for my future need","is it possible to convert wordpress site to ecommerce site in future ?"],
+         "responses": ["Sure, we will do."," we will do when you need it in future", "yes, we provide this service to if you need in future"]
+        },
+
+		 {"tag": "websitedevelopmenttime",
+         "patterns": ["How long will you take to develop the website?","Tell me the total time you need to develop the website","when i can get my website ready","when i will receive my finl product or website","will it get completed by the end of this month/year ?","after what time my website will be delivered to me"],
+         "responses": ["time duration totally depends on the size, functionalities being added in the project.We as a team make sure it gets delivered before the estimated time"]
+        },
+
+	    {"tag": "finalwebsiteproduct",
+         "patterns": ["What if I do not like the final product? Will you make changes in it?","What are your modification policies","what about modifications in the project?", "will the project be shown to me during its development so that i can suggest modifications and changes ?"],
+         "responses": ["We will give you updates and revisions time to time during our project development. If there are minor changes we do but if there are major changes in fuctionalities then we may charge extra for that.We even provide proper documentation so that you could easily work ahead easily after the completion", "you donot worry about it, proper documentation will be send to you regarding everything"]
+        },
+
+		{"tag": "wordpressrightchoice",
+         "patterns": ["Is WordPress the right choice for my website development?"],
+         "responses": ["Yes, Wordpress is the best choce. It's easy to manage. You can mange it easily by following few instruction."]
+        },
+
+		{"tag": "websitemaintenance",
+         "patterns": ["Will you provide after-support, updates, and maintenance?","tell me about maintenance after completion of the work","will you people help in maintaining website later on", "What are your website maintainenece policies ?"],
+         "responses": ["Will do for sure","We will make an agreement for the work before starting of the work in which everyting is mentioned and we holds all the right to change the agreement.","Your maintenance will be covered according to work and understanding","agreement for it will be decided by both the parties so that both of us cannot be exploited"]
+        },
+
+		{"tag": "websitedomainhosting",
+         "patterns": ["Do you also provide domain and web hosting services?","tell me about any help for domain and web hosting","are web hosting sevices provided by yourcompany ?", "what about the web hosting services ?", "where will my website be hosted ?", "You will provide web hosting ?","tell me something about your web hosting services","what are your web hosting policies ?"],
+         "responses": ["No, you need to buy this by your own meanwhile I can work on my server.","I can help you buying the services","Godaddy as well as digital ocean is one way of buying the services. Please check out their site and take their assistance", "we do not provide web hosting services.You need to manage it at your own. We can provide you assistance for doing so"]
+        },
+
+		{"tag": "websitebackuprestore",
+         "patterns": ["Will there be a backup and restore feature on my WordPress site?","I am concerned about backup feature on my wordpress site", "what about data backup and restore features in case if there arises any issues in the website ?"],
+         "responses": ["Yes, It will be there","Please donot worry, we will handle this","thanks for trusting us, we will do this for you.","we always work keeping in these important points in mind. You need not to worry"]
+        },
+
+		 {"tag": "projectupdatecommunicationmeans",
+         "patterns": ["How will I communicate with you?","Means of communicating with you","How can I communicate with you","Please tell me how i can communicate with you","how can i interact with you","how will you provide me with my project develoment updates","which medium you use for communication","after how much time i will be updated on my project","what communication medium you follow ?"],
+         "responses": ["We usually communicate through Skype or Hangout. Here is our Skype ID: paradisetechsoft.solutions Hangout ID: info.paradisetechsoft@gmail.com. You can also call us at 8968488244 or 8968588244 for any type of urgent inquiry over your project. Feel free to get in touch with us anytime"]
+        },
+
+		{"tag": "mobilefriendlywebsite",
+         "patterns": ["Will the site be mobile friendly??","do you add features of making site as mobile friendly", "what about mobile friendly website ?","do you work in mobile friendly websites ?","what you will do regarding the mobile friendliness of a website","mobile friendly feature will be added ?"],
+         "responses": ["Yes, It will be mobile friendly for all the devices.","Yes sure, we provide mobile friendly feature also","mobile friendly feature will be provided to the website","yes, the website will be mobile friendly"]
+        },
+
+	    {"tag": "customizedplugin",
+         "patterns": ["Will any customized plugins be installed on the site???","plugins installed status","Can i get any customized plugin in my website if it requires ?","what about customized plugin installation ?","will you provide your own customized plugins according to functionality requirement ?"],
+         "responses": ["Yes, There will be plugins installed Like security plugins, SEO yoast plugin etc. Rest I can add according to your preference.","this will be more clear when we have some interaction with each other and I understand the workflow completely","cooperation and interaction with each other makes this query resolved in better way","we can decide it much better if we discuss the project requirements in detail","customized plugins depends on the project functionality requirements"]
+        },
+
+
+	    {"tag": "wordpresswebsitesecure",
+         "patterns": ["How WordPress-based site remain secure?","I am concerned with the security of my website","what about website security ?","how you are going to add security to website","is my website safe from hackers","what are your website security strategies ?"],
+         "responses": ["By adding the highly secured plugins."," donot worry, we make it secure by integrating ssl with the website and other security plugins","wordpress websites are highly secure"]
+        },
+
+        {"tag": "intrusionconsiderationandmonitoring",
+            "patterns": ["what if someone breaches into my website security and hacks data ?", "will you people take responsibility if someone breaches into security of my website","what actions you take if someone breaches with website security","how my website is safe from hackers ?","how strong will be my website security ?"],
+            "responses": ["we provide website security to upmost ssl certification and with intrusion detection and prevention systems. IF someone still breaches into it then we etake no responsibilty"]
+        },
+
+	    {"tag": "wordpresswebsiteusageguidance",
+         "patterns": ["Will you provide guidance on use of my WordPress website ?","will you provide me any documentation on use of wordpress","would you provide any help post project completion for handling my work in website ?","what about project documentation for my help ?", "any assistance from yourside regarding handling website post project delivery ?"],
+         "responses": ["Yes we will provide proper guidance and documentation.","yes ofcource","Once everything is set, I will help you in the areas where you face problem", "we provide proper documentation and every step in detail so that you could easily work on the website later.If still you face any issue, do contact us anytime"]
+        },
+
+		{"tag": "websitetesting",
+         "patterns": ["Will the site be tested before it goes live?","Testing website before live","what about website testing","what about errors in website","testing of the website must be done","will the website be properly tested and error free"],
+         "responses": ["Yes It will be properly tested before going live.","Don't worry we will interact through teamviewer or over skype or anysdesk session before making anything live","we have testing team to properly check into the website before making it live.Your website will be error free. If still you find any post live do feel free to get in touch with us"]
+        },
+
+		{"tag": "definewordpress",
+         "patterns": ["What is WordPress?","tell me about wordpress","what is wordpress","define wordpress","please let me know about wordpress","may i know what is wordpress","what is this wordpress ?", "who built this wordpress", "when did this wordpress started", "why it is used to make websites", "is it really so good for making websites ?"],
+         "responses": ["WordPress is a free open source content management system (CMS) written in PHP language and licensed under GPL.WordPress was released on May 27, 2003, by its founders, Matt Mullenweg[ and Mike Little. Google loves WordPress sites. Because they are updated more frequently, and the content tends to be structured well, you can get a WordPress site ranking very quickly compared to a static website. "]
+        },
+
+
+
+		{"tag": "wordpressfeatures",
+         "patterns": ["What are the features of WordPress?","state salient features of wordpress","state features of wordpress","lets discuss some of the features of the wordpress","tell me features of wordpress", "may i know some interesting features of wordpress", "what is the greatness of wordpress","anything interesting about wordpress ?"],
+         "responses": ["Simplicity" , "Easier publishing tools", "Search Engine Optimized", "Media Management", "Easy Theme System, supported by a thriving, engaged community"]
+        },
+
+		{"tag": "wprdpresscontentdatastorage",
+         "patterns": ["Where is WordPress content stored?","tell me the location of content of wordpress stored","where is content wordpress stored","where is data content sotred in wordpress ?","what about wordpress database"],
+         "responses": ["WordPress contents are stored in MySQL database on Server.It has fully customizable, editable, downloadable data table creator.In addition of having the data in the backend, you also have the option to receive the details of the submitted data, right in your email as well."]
+        },
+
+
+        {"tag": "wordpresswebsitesecure",
+         "patterns": ["Is WordPress secure?","I want to know whether wordpress is secure","please tell me about security of wordpress websites", "how wordpress websites are secure ?", "wordpress websites face security related issues or they are fully safe", "what about the safety of wordpress websites", "how safe is wordpress ?"],
+         "responses": ["Yes, It is secure.","WordPress itself is a very secure platform. However, it helps to add some extra security and firewall to your site by using a security plugin that enforces a lot of good security practices.","The All In One WordPress Security plugin doesn’t slow down your site and it is 100% free."]
+        },
+
+		{"tag": "websiteshowongoogle",
+         "patterns": ["Will it show the website on Google?","Show me demo","website will appear in google search results ?","what about the visibility of website in google search results ?","will it appear in google search results ?"],
+         "responses": ["Yes, It will","we will show you the demo once the site is ready","yes, it will appear in google search results through seo"]
+        },
+
+
+		{"tag": "searchengineoptimization",
+         "patterns": ["Can you help with search engine optimisation (SEO)?","Optimization of website is an important step for me"],
+         "responses": ["Yes, i can help you with SEO for sure","I understand your concern and will provide you best solution","donot worry once you take my services you will come back soon.","I will do this for you as per your requirement"]
+        },
+
+
+		{"tag": "emergencycontact",
+         "patterns": ["How would you respond if I had an emergency?","Tell me how can i contact you when I am in emergency","AT what hours you can contact me during emergency"],
+         "responses": ["I will help you for sure"," Please have a call or email us or have a call at skype during emergency","I  will try to help at any time and by profession working hours are 9 a.m to 7 p.m indian time. 8968488244 or 8968588244 or info.paradisetechsoft@gmail.com or Skype ID: paradisetechsoft.solutions"]
+        },
+
+		{"tag": "ageworkingwordpressplatform",
+         "patterns": ["How long have you been working with the WordPress platform?","Tell me your experience of working with wordpress platform"," Share your work experience of your working with wordpress","how old are you ?","what is your age ?"],
+         "responses": ["It's been 8 years I am working with wordpress.","Experience is wide and working since 8 years till now.","we are 8 years old into this web development field"]
+        },
+
+	    {"tag": "integratepaymentsystem",
+         "patterns": ["Do you know how to integrate payments system to website?","I need to integrate payment with website","can you do integration of payment methods with my wordpress site.","what about integrating payment methods in wordpress website", "is it safe to integrate payment methods in wordpress websites ?","are payment metods safe to use on wordpress website ?"],
+         "responses": ["Yes. Please tell me which which system you would like to integrate?","I can integrate which payment method you want to integrate in your site such as paypal, stripe, debit card/credit card or any thing else","Most payment gateways, at least the popular ones, provide a secure way to process the payment."]
+        },
+
+		{"tag": "integratepaypalpayment",
+         "patterns": ["I want to integrate paypal to my website", "Do you integrate paypal with website","i would like to integrate paypal to my WordPress website","can paypal payment be integrated to my website ?","is it possible to integrate paypal to my website ?"],
+         "responses": ["Yes sure.That's great. I will do that for you.","yes for sure","I have done such stuff a lot in the past","surely paypal will be integrated to your website"]
+        },
+
+
+		{"tag": "integratestripepayment",
+         "patterns": ["I want to integrate stripe to my website","Do you integrate stripe with my site","i would like to integrate stripe payment method to my website", "can stripe be integrated to my website for payment methods ?", "is it possible to integrate stripe payment in my website ?","would you please integrate stripe payment to my website ?"],
+         "responses": ["Yes sure.That's great. I will do that for you.","I have done such stuff a lot in the past","surely stripe will be integrated to your website"]
+        },
+
+
+         {"tag": "websitenewsletter",
+         "patterns": ["I want email newsletter subscribe form anywhere on the website","Newsletter is important for me","can i have newsletter into my website ?","please provide my website with newsletter","please keep newsletter in my website","do not forget to include newsletter into my website", "my website should contain newsletter", "add newsletter to my website"],
+         "responses": ["Sure. I will create a newsletter for you","offcource I will add features based on your demand","yes sure, newsletter will be added to your website","newsletter functionality will be added for sure"]
+        },
+
+		{"tag": "socialmediaaccountfeeds",
+         "patterns": ["I want a feed of any social media accounts onto the website?","feeding social media account to my website","do add social media accounts feed to my website","my website should contain social media accounts feeds"],
+         "responses": ["Sure. I will add the feed of any social media account. Please provide me your account details.","Great I will do it","surely, social media feed accounts will be added to your website","don't worry, social media account feeds will be present there on the website"]
+        },
+
+	    {"tag": "websiteintegrateAPI",
+         "patterns": ["Do you know how to integrate API?","Do you know about api intergartion","Do you have any knowledge about API Integration","I want to have Api integration onto my website","please include API integration to my website"],
+         "responses": ["Yes, I will add.","I have been working with api integration for a long time","API Integartion is my area of expertise","yes, you website will have Api integration surely"]
+        },
+
+	    {"tag": "lampxamppmamp",
+         "patterns": ["Do you have any experience with LAMP?","Are you familiar with LAMP, XAMPP and  MAMPP","Have you worked in Xampp, Lampp, Mampp before?", "what about lampp,xampp, mamp","are you aware about lamp,mamp,xamp","do you have any working experience in lamp,mamp,xampp"],
+         "responses": ["Yes,I do have experience in working with LAMP","I can also provide you demo session for its usage if you want","yes, we have been working with lamp,mamp,xampp from a quite long time"]
+        },
+
+		{"tag": "framework",
+         "patterns": ["What frameworks do you prefer?","tell me framework on which you are working","on which frameworks you people work","which frameworks you use","your knowledge in working with frameworks","how much experience in working with frameworks","ever worked in frameworks","wnat is your preference in frameworks","do you know frameworks ?"],
+         "responses": ["I would prefer codeigniter","Codeigniter is framework on which we are working","yes, we work with frameworks preferably with CodeIgniter, laravel"]
+        },
+
+		{"tag": "Codeigniter",
+         "patterns": ["What Is Codeigniter?","Tell me what is codeigniter","what is codeigniter","state the definition of codeigniter","tell me something about codeigniter","lets discuss codeigniter","can we discuss codeigniter","what do you know about codeigniter","is codeigniter a framework ?","what does codeigniter do","how codeigniter can help us","is codeigniter useful in our project"],
+         "responses": ["Codeigniter is an open source framework for web application on PHP. It is loosely based on MVC pattern and it is similar to CakePHP.It is quite time saving and secure, therefore increasing deveopment speed of website. It contains rich set of functionality"]
+        },
+
+
+		{"tag": "connectmodeldatabasecodeigniter",
+         "patterns": ["How Can You Connect Models To A Database Manually?","I want to know how you can connect model to a database manually","connect the model to database manually","how we can connect model to databse in CodeIgniter","tell me the procedure to connect model to database in codeigniter","lets discuss how to connect model to database","just let me know how to connect model to databse in CodeIgniter","how a model is connected to database in codeignitor"],
+         "responses": ["To connect database manually use following syntax,$this->load->database(); For more assistance please visit their website"]
+        },
+
+		{"tag": "aboutcodeigniter",
+         "patterns": ["please tell me something about CodeIgniter?","tell me the language in which Codeigniter is written"],
+         "responses": ["PHP","Answer is PHP"]
+        },
+
+	    {"tag": "languagecodeigniter",
+         "patterns": ["What Are The Features Of Codeigniter?","state the salient features of Codeigniter","tell me features of framework you are using" ],
+         "responses": ["Light Weight ", "CodeIgniter is Extensible", "Full Featured database classes"]
+        },
+
+	{"tag": "understandmvc",
+         "patterns": ["Do you understand MVC?","Have you any knowledge of MVC architeture"],
+         "responses": ["Yes,I do understand","I have been using many frameworks based on MVC such as CodeIgniter, Django"]
+        },
+
+
+	 {"tag": "Mysql",
+         "patterns": ["What's Mysql?","State the definition of MySql","Define MySQL"],
+         "responses": ["MySQL (pronounced my ess cue el) is an open source relational database management system (RDBMS) that uses Structured Query Language"]
+        },
+
+
+
+	{"tag": "explainmvc",
+         "patterns": ["Explain MVC in CodeIgniter","Provide the definition of MVC in CodeIgniter","Explain MVC CodeIgniter"],
+         "responses": ["MVC is a software that gives you a separate logical view from the presentation view."]
+        },
+
+
+	{"tag": "Laravel",
+         "patterns": ["What is Laravel Framework?","What really is Laravel Framework?","Tell me something about Laravel" ],
+         "responses": ["Laravel is a free open-source PHP web framework created by Taylor Otwell and intended for the development of web applications following the model–view–controller (MVC) architectural pattern."]
+        },
+
+	{"tag": "Composer",
+         "patterns": ["What is Composer?","Define Composer","State Composer","What does Composer means","Give the definition of COmposer"],
+         "responses": ["Composer is a dependency manager for PHP.Composer will manage the dependencies you require on a project by project basis."]
+        },
+
+			{"tag": "Laravelevent",
+         "patterns": ["Explain Events in laravel?","State events in laravel","define events in laravel"],
+         "responses": ["An event is an action or occurrence recognized by a program that may be handled by the program or code."]
+        },
+
+	{"tag": "serviceprovider",
+         "patterns": ["What are service providers?","Explain Service Provider","State Service Provider","Tell us what is Service Provider"],
+         "responses": ["Service Providers are central place where all laravel application is bootstrapped."]
+        },
+
+				{"tag": "caching",
+         "patterns": ["Does Laravel support caching?"],
+         "responses": ["Yes, Laravel supports popular caching backends like Memcached and Redis."]
+        },
+
+				{"tag": "eventslaravel",
+         "patterns": ["Explain Events in laravel?"],
+         "responses": ["An event is an action or occurrence recognized by a program that may be handled by the program or code."]
+        },
+
+		  {"tag": "laravelhorizon",
+         "patterns": ["What is Laravel Horizon?"],
+         "responses": ["Laravel Horizon provides a beautiful dashboard and code-driven configuration for your Redis queues."]
+        },
+
+				{"tag": "laraveldusk",
+         "patterns": ["What is Laravel Dusk?"],
+         "responses": ["Laravel Dusk provides an expressive, easy-to-use browser automation and testing API. You’ll love it."]
+        },
+
+				{"tag": "composertool",
+         "patterns": ["What is Composer Tool?"],
+         "responses": ["Composer is a tool for dependency management in PHP."]
+        },
+
+				{"tag": "Binding",
+         "patterns": ["What is Binding?"],
+         "responses": ["Within a service provider, we always have access to the container via the $this->app property."]
+        },
+
+
+
+		    {"tag": "validations",
+         "patterns": ["Explain validations in laravel?"],
+         "responses": ["validations are a handy way to ensure that your data is always in a clean and expected format before it gets into your database."]
+        },
+
+		{"tag": "laravelecho",
+         "patterns": ["What is Laravel Echo?"],
+         "responses": ["Event broadcasting, evolved. Bring the power of WebSockets to your application without the complexity."]
+        },
+
+				{"tag": "installlaravel",
+         "patterns": ["How do you install Laravel?"],
+         "responses": ["Laravel utilizes Composer to manage its dependencies. So, before using Laravel, make sure we have Composer installed on your machine."]
+        },
+
+		  {"tag": "unsetunlink",
+         "patterns": ["What is difference between unset and unlink?"],
+         "responses": ["Unset is used to delete(destroy) a variable whereas unlink used to delete a file."]
+        },
+
+		{"tag": "sessioncookies",
+         "patterns": ["What is the difference between session and cookies?"],
+         "responses": ["Session are temporary and Cookies are permanent."]
+        },
+
+		{"tag": "finalclass",
+         "patterns": ["What is final class?"],
+         "responses": ["final class is a class that can not be inherited.Its protect the methods of class to be overriden by the child classes."]
+        },
+
+			{"tag": "PHP4PHP5",
+         "patterns": ["What is the difference between PHP4 and PHP5?"],
+         "responses": ["In PHP5 abstract classes are used but not used in PHP4."]
+        },
+
+				{"tag": "interpretedcompiler",
+         "patterns": ["Is PHP an interpreted language or compiler language?"],
+         "responses": ["PHP is an interpreted language."]
+        },
+
+					{"tag": "servicesphp",
+         "patterns": ["What are web services in PHP?"],
+         "responses": ["Web services converts our applicaton into a web-application, which can publish its functions and messages to the internet users."]
+        },
+		{"tag": "hintingphp",
+         "patterns": ["What is type hinting in PHP?"],
+         "responses": ["Type hinting means the function specifies what type of parameters must be and if it is not of the correct type an error will occur."]
+        },
+
+		{"tag": "multipleinheritancephp",
+         "patterns": ["Is multiple inheritance supported in PHP?"],
+         "responses": ["No, multiple inheritance is not supported by PHP"]
+        },
+
+
+		{"tag": "constantsphp",
+         "patterns": ["How can we define constants in PHP?"],
+         "responses": ["In PHP we can define constants with the keyword define."]
+        },
+
+		{"tag": "timezonephp",
+         "patterns": ["How can we change the time zones using PHP?"],
+         "responses": ["We can change the time zones by using  date_default_timezone_set() function."]
+        },
+
+		{"tag": "phpfilter",
+         "patterns": ["Define PHP filter?"],
+         "responses": ["PHP filter is used to validate the data coming from different sources like the user’s input."]
+        },
+
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+
+        {"tag":"help",
+        "patterns":["Hi, I have a question. Can you help me", "Hi I need some help"],
+         "responses":["Yes Sure", "what can I do for you", "How may I help You?"]
+        },
+
+        {"tag":"SEO",
+        "patterns":["Would you do SEO for my business?", "I am looking for an SEO Company", "Will you improve my Website's SEO", "How much should I pay for SEO?"],
+        "responses":["Yes We do.", "We are a SEO company based in India", "Yes, definitely", "The average cost start from $250-$500"]
+        },
+
+
+        {"tag":"onlinemarketing",
+	  "patterns":["Can you help me with Online Marketing?", "Do you provide Online marketing services?"],
+	  "responses":["Yes, Sure!", "Yes, We do provide Online Marketing services"]
+	    },
+
+
+        {"tag":"seoservices",
+	    "patterns":["I am looking for SEO services", "Tell me about your seo services"],
+	     "responses":["Okay, How can I help You?", "We provide Digital marketing services Like SEO, SMO ,SMM & PPC etc"]
+	     },
+
+
+
+          {"tag":"seocost",
+	   	"patterns":["How much do SEO services cost?","How much does SEO cost?", "What is the cost for SEO of a website"],
+		"responses":["At these early stages, it’s impossible to put an exact figure, but let’s talk about what will work for you, It depends", "SEO Cost could differ based on the project's size", "It dependent on many factors including quality of work & targeted country"]
+          },
+
+            {"tag":"visitors",
+	        "patterns" :["Can I see visitors on my website?", "Can I see how many visitors I have to my website?", "Will you able to increase my website's visitors", "How will you increase visitors to my website?"],
+	          "responses":["Yes, You can check it through Google Analytics", "Yes, you can check it throgh many free tools", "Yes, But trying to increase website traffic is a marathon, not a sprint", "One of the best ways to increase traffic to your website is to use social media channels to promote your content "]
+	        },
+
+
+              {"tag":"price",
+		         "patterns":["What's SEO Services price?"],
+		          "responses":["The price of SEO services is dependent on many factors including quality of work, country where the SEO work is done"]
+              },
+
+              	{"tag":"ranking",
+		        "patterns":["How long it takes to see ranking result on Google", "how much ranking can my website achieve?","How will you improve our search engine rankings?", "What sort of ranking increases can we expect?" , "Can you guarantee that my site will have a top ranking position?", "How much time do you think it will take to receive a high ranking with Google?"],
+        	    "responses":["The average time for websites to rank on google is about 3 to 6 months", "It depends, because there are just too many variables to consider: website strength, competition, budget, skills, etc.", "By building high quality backlinks", "We will definitely do our best to give you best results","As you can see, to reach the top 10 SERPs in less than 1 year, takes lots of hard work, skill, and sometimes luck.", "It will take 3 to 6 months"]
+              },
+
+              {"tag":"backlinks",
+	          "patterns":["Have you done high quality backlinking before?","How many backlinks can we expect per month?", "What is the strategy for backlinks?"],
+	           "responses":["Yes,I have done high PR back-linking before and ranked multiple sites","Its all depends upon what niche your website is & what type of backlinks your're building","Depending on the type of website you have and the audience you want to reach, your best backlinking strategy will be different"]
+                },
+              {"tag":"tools",
+	"patterns":["What tools do you use to perform website analysis?","What tools do you use to track and manage your campaigns?","Which tools do you use to achieve results and carry out SEO services?"],
+	"responses":["There are many excellent tools like seositecheckup, seoptimer, seoquake , spider frog etc", "We preffer Google analytics & Google webmaster tools"," There are plenty of tools you can use to tackle SEO like google keywords planner, Search Console,SEMrush, Google analysis etc."]
+              }]}
