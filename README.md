@@ -1,2 +1,2 @@
 # json-file
-thnaks
+thanks
