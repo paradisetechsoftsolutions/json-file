@@ -628,4 +628,6 @@
               {"tag":"tools",
 	"patterns":["What tools do you use to perform website analysis?","What tools do you use to track and manage your campaigns?","Which tools do you use to achieve results and carry out SEO services?"],
 	"responses":["There are many excellent tools like seositecheckup, seoptimer, seoquake , spider frog etc", "We preffer Google analytics & Google webmaster tools"," There are plenty of tools you can use to tackle SEO like google keywords planner, Search Console,SEMrush, Google analysis etc."]
-              }]}
+              }
+	    ]
+}
